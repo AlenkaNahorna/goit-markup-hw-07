@@ -86,15 +86,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo:hover,
-.logo:focus {
-  color: var(--second-title-color);
-}
-.logo-web {
-  color: var(--second-title-color);
-}
-.logo-primary {
+.logo--black {
   color: var(--text-logo-primary);
+}
+
+.logo__web {
+  color: var(--second-title-color);
 }
 
 .navigation {
