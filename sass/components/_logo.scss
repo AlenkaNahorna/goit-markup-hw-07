@@ -4,16 +4,13 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo--black {
-  color: var(--text-logo-primary);
-}
-
-.logo__web {
-  color: var(--second-title-color);
-}
-
-.logo--white {
-  color: var(--second-text-color);
+  &__web {
+    color: $accent-color;
+  }
+  &--black {
+    color: $text-logo-primary;
+  }
+  &--white {
+    color: $second-text-color;
+  }
 }

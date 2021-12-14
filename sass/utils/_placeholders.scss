@@ -1,0 +1,18 @@
+%flex {
+  display: flex;
+  align-items: center;
+}
+
+%header-font {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+%teammate-font {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}

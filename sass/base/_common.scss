@@ -2,8 +2,8 @@ body {
   margin: 0 auto;
 
   font-family: Roboto, sans-serif;
-  color: var(--first-text-color);
-  background-color: var(--background-main);
+  color: $first-text-color;
+  background-color: $background-main;
 }
 
 .list {
