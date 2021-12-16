@@ -1,9 +1,7 @@
 .features {
   padding-bottom: 47px;
 }
-.section__container {
-  margin: 0 auto;
-}
+
 .features-list {
   @extend %flex;
   &__item {
@@ -12,7 +10,7 @@
   &__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__item-icon {
+  &__item-wrap {
     display: flex;
     justify-content: center;
     padding: 25px 0;
@@ -23,18 +21,14 @@
   &__title {
     margin-bottom: 10px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.14, 0.03em, 700);
+
     text-transform: uppercase;
     color: $main-title-color;
   }
   &__text {
     max-width: 270px;
 
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(14px, 1.14, 0.03em, 400);
   }
 }

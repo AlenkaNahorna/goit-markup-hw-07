@@ -1,6 +1,7 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/placeholders';
+@import './utils/mixins';
 
 @import './base/reset';
 @import './base/common';
@@ -14,6 +15,8 @@
 @import './components/backdrop';
 @import './components/modal';
 @import './components/form';
+@import './components/_portfolio-filter';
+@import './components/card-description';
 
 @import './layout/header';
 @import './layout/hero';

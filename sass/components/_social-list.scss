@@ -1,6 +1,6 @@
 .social-list {
   display: flex;
-  justify-content: center;
+
   &__item {
     width: 44px;
     height: 44px;
@@ -29,12 +29,12 @@
     background-color: $accent-color;
     color: $second-text-color;
   }
-  &__link--gray {
-    background-color: $background-join-us;
+  &__link--secondary {
+    background-color: rgba($background-main, 0.1);
     color: $second-text-color;
   }
-  &__link--gray:hover,
-  &__link--gray:focus {
+  &__link--secondary:hover,
+  &__link--secondary:focus {
     background-color: $accent-color;
   }
 }
