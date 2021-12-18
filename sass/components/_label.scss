@@ -1,0 +1,5 @@
+.label {
+  display: block;
+
+  @include font(12px, 1.17, 0.01em, 400);
+}

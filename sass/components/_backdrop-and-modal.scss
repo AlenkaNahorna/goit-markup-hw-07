@@ -3,7 +3,7 @@
 
   width: 100vw;
   height: 100vh;
-  background-color: rgba($text-logo-primary, 0.2);
+  background-color: rgba($logo-primary, 0.2);
 
   top: 0;
   left: 0;
@@ -20,10 +20,10 @@
 
   width: 528px;
   min-height: 581px;
-  background-color: $background-main;
+  background-color: $background-primary;
   border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba($text-logo-primary, 0.12), 0px 1px 1px rgba($text-logo-primary, 0.14),
-    0px 2px 1px rgba($text-logo-primary, 0.2);
+  box-shadow: 0px 1px 3px rgba($logo-primary, 0.12), 0px 1px 1px rgba($logo-primary, 0.14),
+    0px 2px 1px rgba($logo-primary, 0.2);
 
   top: 50%;
   left: 50%;
@@ -36,7 +36,7 @@
     @include font(20px, 1.15, 0.03em, 700);
     text-align: center;
 
-    color: $main-title-color;
+    color: $primary-color;
   }
 }
 

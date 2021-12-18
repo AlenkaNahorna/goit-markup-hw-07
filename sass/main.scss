@@ -2,10 +2,10 @@
 @import './utils/placeholders';
 @import './utils/mixins';
 
-@import './base/common';
-
+@import './components/common';
 @import './components/section';
 @import './components/header';
+@import './components/nav-list';
 @import './components/contacts';
 @import './components/logo';
 @import './components/hero';
@@ -19,6 +19,12 @@
 @import './components/footer';
 @import './components/subscribe-form';
 @import './components/backdrop-and-modal';
-@import './components/form';
+@import './components/group-absolute';
+
+@import './components/inputs/input-field';
+@import './components/inputs/textarea-field';
+@import './components/inputs/checkbox';
+
+@import './components/label';
 @import './components/filter';
 @import './components/portfolio';

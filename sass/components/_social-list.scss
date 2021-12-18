@@ -18,8 +18,8 @@
     height: 100%;
     border-radius: 50%;
 
-    background-color: $background-main;
-    color: $main-social-icon-color;
+    background-color: $background-primary;
+    color: $icon-primary;
   }
   &__icon {
     fill: currentColor;
@@ -27,11 +27,11 @@
   &__link:hover,
   &__link:focus {
     background-color: $accent-color;
-    color: $second-text-color;
+    color: $background-primary;
   }
   &__link--secondary {
-    background-color: rgba($background-main, 0.1);
-    color: $second-text-color;
+    background-color: rgba($background-primary, 0.1);
+    color: $background-primary;
   }
   &__link--secondary:hover,
   &__link--secondary:focus {

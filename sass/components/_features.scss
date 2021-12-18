@@ -16,7 +16,7 @@
     padding: 25px 0;
     margin-bottom: 30px;
     border-radius: 4px;
-    background-color: $background-section-three;
+    background-color: $background-section;
   }
   &__title {
     margin-bottom: 10px;
@@ -24,7 +24,7 @@
     @include font(14px, 1.14, 0.03em, 700);
 
     text-transform: uppercase;
-    color: $main-title-color;
+    color: $primary-color;
   }
   &__text {
     max-width: 270px;

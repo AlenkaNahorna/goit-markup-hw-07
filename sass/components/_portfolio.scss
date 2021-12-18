@@ -14,8 +14,8 @@
   }
   &__item:hover,
   &__item:focus {
-    box-shadow: 0px 1px 1px rgba($text-logo-primary, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba($text-logo-primary, 0.16);
+    box-shadow: 0px 1px 1px rgba($logo-primary, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba($logo-primary, 0.16);
   }
   &__item-thumb {
     position: relative;
@@ -39,24 +39,24 @@
   }
   &__card-text {
     @include font(18px, 1.56, 0.03em, 400);
-    color: $second-text-color;
+    color: $background-primary;
   }
 
   &__wrap {
     padding: 20px 24px;
-    border-right: 1px solid $main-border;
-    border-bottom: 1px solid $main-border;
-    border-left: 1px solid $main-border;
-    background-color: $background-main;
+    border-right: 1px solid $border-primary;
+    border-bottom: 1px solid $border-primary;
+    border-left: 1px solid $border-primary;
+    background-color: $background-primary;
   }
   &__title {
     margin-bottom: 4px;
 
     @include font(18px, 2, 0.06em, 700);
-    color: $main-title-color;
+    color: $primary-color;
   }
   &__text {
     @include font(16px, 1.87, 0.03em, 400);
-    color: $first-text-color;
+    color: $primary-shade-color;
   }
 }

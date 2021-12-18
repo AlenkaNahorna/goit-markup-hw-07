@@ -122,27 +122,21 @@
           <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="works-list list">
             <li class="works-list__item">
-              <div class="works-list__thumb">
-                <img src="./images/box_1.jpg" alt="компьютер" width="370" height="294" />
-                <div class="works-list__description">
-                  <p class="works-list__text">Десктопные приложения</p>
-                </div>
+              <img src="./images/box_1.jpg" alt="компьютер" width="370" height="294" />
+              <div class="works-list__description">
+                <p class="works-list__text">Десктопные приложения</p>
               </div>
             </li>
             <li class="works-list__item">
-              <div class="works-list__thumb">
-                <img src="./images/box_2.jpg" alt="Приложения" width="370" height="294" />
-                <div class="works-list__description">
-                  <p class="works-list__text">Мобильные приложения</p>
-                </div>
+              <img src="./images/box_2.jpg" alt="Приложения" width="370" height="294" />
+              <div class="works-list__description">
+                <p class="works-list__text">Мобильные приложения</p>
               </div>
             </li>
             <li class="works-list__item">
-              <div class="works-list__thumb">
-                <img src="./images/box_3.jpg" alt="дизайн" width="370" height="294" />
-                <div class="works-list__description">
-                  <p class="works-list__text">Дизайнерские решения</p>
-                </div>
+              <img src="./images/box_3.jpg" alt="дизайн" width="370" height="294" />
+              <div class="works-list__description">
+                <p class="works-list__text">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -444,67 +438,67 @@
         </button>
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
 
-        <!------------------- ФОТРМА ------------------>
+        <!------------------- FORM ------------------>
         <form action="#" class="form">
-          <div class="form__field-input">
-            <label for="user-name" class="label-input">Имя</label>
-            <div class="form__input-wrap">
-              <input type="text" name="user-name" id="user-name" class="form__input" />
-              <svg class="input-icon" width="18" height="18">
+          <div class="input-field">
+            <label for="user-name" class="label">Имя</label>
+            <div class="group-absolute">
+              <input type="text" name="user-name" id="user-name" class="input-field__input" />
+              <svg class="input-field__icon" width="18" height="18">
                 <use href="./images/icons.svg#person-black"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form__field-input">
-            <label for="user-tel" class="label-input">Телефон</label>
-            <div class="form__input-wrap">
-              <input type="tel" name="user-tel" id="user-tel" class="form__input" />
-              <svg class="input-icon" width="18" height="18">
+          <div class="input-field">
+            <label for="user-tel" class="label">Телефон</label>
+            <div class="group-absolute">
+              <input type="tel" name="user-tel" id="user-tel" class="input-field__input" />
+              <svg class="input-field__icon" width="18" height="18">
                 <use href="./images/icons.svg#phone-black"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form__field-input">
-            <label for="user-email" class="label-input"> Почта</label>
-            <div class="form__input-wrap">
-              <input type="email" name="user-email" id="user-email" class="form__input" />
-              <svg class="input-icon" width="18" height="18">
+          <div class="input-field">
+            <label for="user-email" class="label"> Почта</label>
+            <div class="group-absolute">
+              <input type="email" name="user-email" id="user-email" class="input-field__input" />
+              <svg class="input-field__icon" width="18" height="18">
                 <use href="./images/icons.svg#email-black"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form__field-textarea">
-            <label for="comment" class="label-input">Комментарий</label>
+          <div class="textarea-field">
+            <label for="comment" class="label">Комментарий</label>
             <textarea
               name="comment"
               id="comment"
-              class="form__comment"
+              class="textarea-field__input"
               placeholder="Введите текст"
             ></textarea>
           </div>
 
-          <div class="form__checkbox">
+          <div class="checkbox">
             <input
               type="checkbox"
               name="policy"
               id="form-check"
-              class="form__check visually-hidden"
+              class="checkbox__input visually-hidden"
             />
-            <label for="form-check" class="label-checkbox"
-              ><span>
-                <svg class="label-checkbox__icon" width="16" height="15">
+            <label for="form-check" class="checkbox__label"
+              ><span class="checkbox__icon-wrapper">
+                <svg class="checkbox__icon" width="16" height="15">
                   <use href="./images/icons.svg#check-agree"></use>
                 </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю
-              <a href="" class="label-checkbox__link">Условия договора</a>
+              <a href="" class="checkbox__link">Условия договора</a>
             </label>
           </div>
 
-          <button type="submit" class="primary-btn primary-btn--flex">Отправить</button>
+          <button type="submit" class="primary-btn">Отправить</button>
         </form>
       </div>
     </div>
