@@ -22,11 +22,11 @@
   &__icon {
     margin-left: 10px;
   }
-}
-
-.primary-btn--flex {
-  @extend %flex;
-  justify-content: center;
+  &--flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .close-btn {
